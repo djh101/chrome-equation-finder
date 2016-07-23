@@ -1,0 +1,1 @@
+The goal of this extension is to provide a quick and easy method for looking up math and science equations. Currently the database of equations is stored offline in LaTeX form in a JSON file. Equations are processed using MathJax TeX to CommonHTML.
