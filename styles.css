@@ -1,0 +1,28 @@
+html,body {
+	min-width: 180px;
+	font-size: 1.02em;
+}
+#name {
+	display: block;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+.hidden {
+	display: none;
+}
+.invisible {
+	visibility: hidden;
+}
+form div {
+	text-align: center;
+}
+input {
+	text-align: left;
+}
+input[type=search] {
+	width: 200px;
+}
+footer {
+	display: none;
+}

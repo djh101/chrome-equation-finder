@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Equation Finder",
+  "description": "Quickly look up math and science equations.",
+  "version": "0.1",
+  "omnibox": {
+  	"keyword": "eqn"
+  },
+  "icons": {
+  	"16": "icon16.png",
+  	"48": "icon48.png",
+  	"128": "icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+  	"scripts": ["background.js"]
+  },
+  "permissions": [
+    
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Equation Viewer</title>
+	<script async src="MathJax/MathJax-2.6-latest/MathJax.js?config=TeX-AMS_CHTML-full"></script>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<div id="input">
+		<form id="searchform" method="get" action="">
+			<div>
+				<input id="search" type="search" autocomplete="off" autofocus="autofocus" />
+				<input id="search0" type="hidden" />
+				<input id="display" type="hidden" value="false" />
+			</div>
+		</form>
+	</div>
+	<div id="output" class="hidden">
+		<output id="name"></output>
+		<output id="latex" class="invisible"></output>
+	</div>
+	
+	<footer>
+		<a href="">View and Edit Equation List</a>
+	</footer>
+	
+	<script src="popup.js"></script>
+</body>
+</html>
