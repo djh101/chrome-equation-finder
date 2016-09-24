@@ -1,6 +1,11 @@
 [
 	{
 		"family" : "calculus",
+		"name" : "d'Alembertian",
+		"latex" : ["\\Box = \\partial^\\mu\\partial_\\mu = \\frac{1}{c^2}\\frac{\\partial^2}{\\partial t^2}-\\nabla^2"]
+	},
+	{
+		"family" : "calculus",
 		"name" : "Derivative",
 		"latex" : ["\\frac{df}{dx}=\\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}"]
 	},
@@ -19,7 +24,7 @@
 	},
 	{
 		"family" : "calculus",
-		"name" : "Stokes Theorem",
+		"name" : "Stokes' Theorem",
 		"latex" : [
 			"\\int_{\\partial\\Omega}\\omega=\\int_{\\Omega}d\\omega",
 			"\\iint_S\\nabla\\times\\mathbf{F}\\cdot d\\mathbf{S}=\\oint_{\\partial S}\\mathbf{F}\\cdot d\\mathbf{l}"
@@ -31,6 +36,11 @@
 		"family" : "classical-mechanics",
 		"name" : "Center of Mass",
 		"latex" : ["\\mathbf{r}_{\\text{cm}}=\\frac{\\sum m_i\\mathbf{r}_i}{\\sum m_i}"]
+	},
+	{
+		"family" : "classical-mechanics",
+		"name" : "Euler-Lagrange Equations",
+		"latex" : ["\\frac{\\partial L}{\\partial q_i}-\\frac{d}{dt}\\frac{\\partial L}{\\partial\\dot{q}_i}=0"]
 	},
 	{
 		"family" : "classical-mechanics",
@@ -69,7 +79,7 @@
 	},
 	{
 		"family" : "classical-mechanics",
-		"name" : "Newtons Law of Gravitation",
+		"name" : "Newton's Law of Gravitation",
 		"latex" : ["\\mathbf{F}_{12}=-G\\frac{m_1m_2}{\\left|\\mathbf{r}_{12}\\right|^2}\\hat{r}_{12}"]
 	},
 	{
@@ -148,6 +158,46 @@
 	
 	
 	{
+		"family" : "differential-geometry",
+		"name" : "Christoffel Symbol",
+		"latex" : ["\\Gamma_{\\mu\\nu}^\\lambda=\\frac{1}{2}g^{\\lambda\\sigma}(\\partial_\\mu g_{\\nu\\sigma}+\\partial_\\nu g_{\\sigma\\mu}-\\partial_\\sigma g_{\\mu\\nu})"]
+	},
+	{
+		"family" : "differential-geometry",
+		"name" : "Covariant Derivative",
+		"latex" : ["\\nabla_\\mu V^\\nu=\\partial_\\mu V^\\nu+\\Gamma_{\\mu\\sigma}^\\nu V^\\sigma"]
+	},
+	{
+		"family" : "differential-geometry",
+		"name" : "Directional Covariant Derivative",
+		"latex" : ["\\frac{D}{d\lambda}=\\frac{dx^\\mu}{d\\lambda}\\nabla_\\mu"]
+	},
+	{
+		"family" : "differential-geometry",
+		"name" : "Exterior Derivative",
+		"latex" : ["(dA)_{\\mu_1\\dots\\mu_{p+1} = (p+1)\\partial_{[\\mu_1}A_{\\mu_2\\dots\\mu_{p+1}]}}"]
+	},
+	{
+		"family" : "differential-geometry",
+		"name" : "Geodesic Equation",
+		"latex" : ["\\frac{d^2x^\\mu}{d\\lambda^2}+\\Gamma_{\\rho\\sigma}^\\mu\\frac{dx^\\rho}{d\\lambda}\\frac{dx^\\sigma}{d\\lambda}=0"]
+	},
+	{
+		"family" : "differential-geometry",
+		"name" : "Riemann Tensor",
+		"latex" : ["{R^\\rho}_{\\sigma\\mu\\nu}=\\partial_\\mu\\Gamma_{\\nu\\sigma}^\\rho-\\partial_\\nu\\Gamma_{\\mu\\sigma}^\\rho+\\Gamma_{\\mu\\lambda}^\\rho\\Gamma_{\\nu\\sigma}^\\lambda-\\Gamma_{\\nu\\lambda}^\\rho\\Gamma_{\\mu\\sigma}^\\lambda"]
+	},
+	{
+		"family" : "differential-geometry",
+		"name" : "Vector Transformation Laws",
+		"latex" : [
+			"V^{\\mu'} = \\frac{\\partial x^{\\mu'}}{\\partial x^\\mu}V^\\mu",
+			"V_{\\mu'} = \\frac{\\partial x^\\mu}{\\partial x^{\\mu'}}V^\\mu",
+		]
+	},
+	
+	
+	{
 		"family" : "electromagnetism",
 		"name" : "Ampere's Law",
 		"latex" : [
@@ -157,7 +207,7 @@
 	},
 	{
 		"family" : "electromagnetism",
-		"name" : "Biot-Savarts Law",
+		"name" : "Biot-Savart Law",
 		"latex" : [
 			"\\mathbf{B}(\\mathbf{r})=\\frac{\\mu_0}{4\\pi}\\int_C\\frac{Id\\mathbf{l}\\times(\\mathbf{r}-\\mathbf{l})}{\\left|\\mathbf{r}-\\mathbf{l}\\right|^3}",
 			"\\mathbf{B}(\\mathbf{r})=\\frac{\\mu_0}{4\\pi}\\iiint\\frac{\\mathbf{J}\\times(\\mathbf{r}-\\mathbf{l})}{\\left|\\mathbf{r}-\\mathbf{l}\\right|^3}dV"
@@ -213,8 +263,40 @@
 	},
 	{
 		"family" : "electromagnetism",
+		"name" : "Parallel Capacitors",
+		"latex" : [
+			"C_\\text{eq}=\\sum_iC_i",
+			"\\Delta V=\\text{constant}"
+		]
+	},
+	{
+		"family" : "electromagnetism",
+		"name" : "Parallel Resistors",
+		"latex" : [
+			"R_\\text{eq}=\\left(\\sum_i\\frac{1}{R_i}\\right)^{-1}",
+			"\Delta V=\\text{constant}"
+		]
+	},
+	{
+		"family" : "electromagnetism",
 		"name" : "Poynting Vector",
 		"latex" : ["\\mathbf{S}=\\frac{1}{\\mu_0}\\mathbf{E}\\times\\mathbf{B}"]
+	},
+	{
+		"family" : "electromagnetism",
+		"name" : "Series Capacitors",
+		"latex" : [
+			"C_\\text{eq}=\\left(\\sum_i\\frac{1}{C_i}\\right)^{-1}",
+			"Q=\\text{constant}"
+		]
+	},
+	{
+		"family" : "electromagnetism",
+		"name" : "Series Resistors",
+		"latex" : [
+			"R_\\text{eq}=\\sum_iR_i",
+			"I=\\text{constant}"
+		]
 	},
 	
 	
@@ -222,6 +304,11 @@
 		"family" : "fluid-mechanics",
 		"name" : "Bernoulli's Equation",
 		"latex" : ["p_1+\\rho gy_1+\\frac{1}{2}\\rho v_1^2=p_2+\\rho gy_2+\\frac{1}{2}\\rho v_2^2"]
+	},
+	{
+		"family" : "fluid-mechanics",
+		"name" : "Continuity Equation",
+		"latex" : ["\\frac{\\partial\\rho}{\\partial t}+\\nabla\\cdot\\mathbf{j}=\\sigma"]
 	},
 	
 	
@@ -241,6 +328,14 @@
 		"family" : "precalculus",
 		"name" : "Change of Base",
 		"latex" : ["\\log_bx=\\frac{\\log_ax}{\\log_ab}"]
+	},
+	{
+		"family" : "precalculus",
+		"name" : "Quadratic Formula",
+		"latex" : [
+			"ax^2+bx+c=0",
+			"x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}"
+		]
 	},
 	
 	
@@ -330,6 +425,11 @@
 		"family" : "special-relativity",
 		"name" : "Length Contraction",
 		"latex" : ["l=\\frac{1}{\\gamma}l_0=\\sqrt{1-\\frac{v^2}{c^2}}l_0"]
+	},
+	{
+		"family" : "special-relativity",
+		"name" : "Lorentz Factor",
+		"latex" : ["\\gamma = \\frac{1}{\\sqrt{1-v^2/c^2}}"]
 	},
 	{
 		"family" : "special-relativity",
