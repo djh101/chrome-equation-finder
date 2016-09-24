@@ -170,7 +170,7 @@
 	{
 		"family" : "differential-geometry",
 		"name" : "Directional Covariant Derivative",
-		"latex" : ["\\frac{D}{d\lambda}=\\frac{dx^\\mu}{d\\lambda}\\nabla_\\mu"]
+		"latex" : ["\\frac{D}{d\\lambda}=\\frac{dx^\\mu}{d\\lambda}\\nabla_\\mu"]
 	},
 	{
 		"family" : "differential-geometry",
@@ -192,7 +192,7 @@
 		"name" : "Vector Transformation Laws",
 		"latex" : [
 			"V^{\\mu'} = \\frac{\\partial x^{\\mu'}}{\\partial x^\\mu}V^\\mu",
-			"V_{\\mu'} = \\frac{\\partial x^\\mu}{\\partial x^{\\mu'}}V^\\mu",
+			"V_{\\mu'} = \\frac{\\partial x^\\mu}{\\partial x^{\\mu'}}V_\\mu"
 		]
 	},
 	
@@ -274,7 +274,7 @@
 		"name" : "Parallel Resistors",
 		"latex" : [
 			"R_\\text{eq}=\\left(\\sum_i\\frac{1}{R_i}\\right)^{-1}",
-			"\Delta V=\\text{constant}"
+			"\\Delta V=\\text{constant}"
 		]
 	},
 	{
