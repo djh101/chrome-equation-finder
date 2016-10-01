@@ -110,6 +110,16 @@
 	
 	
 	{
+		"family" : "complex-analysis",
+		"name" : "Kramers-Kronig Relations",
+		"latex" : [
+			"\\chi_\\text{Re}(\\omega)=\\frac{1}{\\pi}\\mathcal{P}\\int_{-\\infty}^\\infty d\\omega'\\frac{\\chi_\\text{Im}(\\omega')}{\\omega'-\\omega}",
+			"\\chi_\\text{Im}(\\omega)=-\\frac{1}{\\pi}\\mathcal{P}\\int_{-\\infty}^\\infty d\\omega'\\frac{\\chi_\\text{Re}(\\omega')}{\\omega'-\\omega}"
+		]
+	},
+	
+	
+	{
 		"family" : "coordinates",
 		"name" : "Cylindrical Coordinates",
 		"latex" : [
@@ -191,6 +201,11 @@
 		"family" : "differential-geometry",
 		"name" : "Geodesic Equation",
 		"latex" : ["\\frac{d^2x^\\mu}{d\\lambda^2}+\\Gamma_{\\rho\\sigma}^\\mu\\frac{dx^\\rho}{d\\lambda}\\frac{dx^\\sigma}{d\\lambda}=0"]
+	},
+	{
+		"family" : "differential-geometry",
+		"name" : "Killing's Equation",
+		"latex" : ["\\nabla_{(\\mu}K_{\\nu)}=0"]
 	},
 	{
 		"family" : "differential-geometry",
