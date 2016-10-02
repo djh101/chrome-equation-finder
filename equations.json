@@ -1,6 +1,11 @@
 [
 	{
 		"family" : "calculus",
+		"name" : "Cyclical Rule",
+		"latex" : ["\\left(\\frac{\\partial x}{\\partial y}\\right)_z\\left(\\frac{\\partial y}{\\partial z}\\right)_x\\left(\\frac{\\partial z}{\\partial x}\\right)_y=-1"]
+	},
+	{
+		"family" : "calculus",
 		"name" : "d'Alembertian",
 		"latex" : ["\\Box = \\partial^\\mu\\partial_\\mu = \\frac{1}{c^2}\\frac{\\partial^2}{\\partial t^2}-\\nabla^2"]
 	},
@@ -13,6 +18,14 @@
 		"family" : "calculus",
 		"name" : "Divergence Theorem",
 		"latex" : ["\\iiint_V\\nabla\\cdot\\mathbf{F}d^3r=\\oint_{\\partial V}\\mathbf{F}\\cdot d\\mathbf{A}"]
+	},
+	{
+		"family" : "calculus",
+		"name" : "Fourier Transform",
+		"latex" : [
+			"f(\\mathbf{r},t)=\\int\\frac{d^3k}{(2\\pi)^3}\\int_{-\\infty}^\\infty\\frac{d\\omega}{2\\pi}\\hat{f}(\\mathbf{k},\\omega)e^{i(\\mathbf{k}\\cdot\\mathbf{r}-\\omega t)}",
+		"\\hat{f}(\\mathbf{k},\\omega)=\\int d^3r\\int_{-\\infty}^\\infty dtf(\\mathbf{r},t)e^{-i(\\mathbf{k}\\cdot\\mathbf{r}-\\omega t)}"
+		]
 	},
 	{
 		"family" : "calculus",
@@ -32,6 +45,28 @@
 	},
 	
 	
+	{
+		"family" : "chemistry",
+		"name" : "Arrhenius Equation",
+		"latex" : ["k=Ae^{-\\frac{E_a}{RT}}"]
+	},
+	{
+		"family" : "chemistry",
+		"name" : "Henderson-Hasselbalch Equation",
+		"latex" : ["\\text{pH}=\\text{p}K_a+\\log_{10}\\left(\\frac{[A^-]}{[HA]}\\right)"]
+	},
+	{
+		"family" : "chemistry",
+		"name" : "pH",
+		"latex" : ["\\text{pH}=-\\log_{10}[\\text{H}_3\\text{O}^+]"]
+	},
+	
+	
+	{
+		"family" : "classical-mechanics",
+		"name" : "Action",
+		"latex" : ["S=\\int_{t_1}^{t_2}dtL"]
+	},
 	{
 		"family" : "classical-mechanics",
 		"name" : "Center of Mass",
@@ -66,6 +101,16 @@
 	},
 	{
 		"family" : "classical-mechanics",
+		"name" : "Lagrangian",
+		"latex" : ["L=T-U"]
+	},
+	{
+		"family" : "classical-mechanics",
+		"name" : "Liouville's Theorem",
+		"latex" : ["\\frac{\\partial\\rho}{\\partial t}=-\\{\\rho,H\\}"]
+	},
+	{
+		"family" : "classical-mechanics",
 		"name" : "Moment of Inertia",
 		"latex" : [
 			"I=\\sum m_ir_i^2=\\int r^2dm",
@@ -89,6 +134,11 @@
 	},
 	{
 		"family" : "classical-mechanics",
+		"name" : "Poisson Bracket",
+		"latex" : ["\\{f,g\\}=\\sum_i\\left(\\frac{\\partial f}{\\partial q_i}\\frac{\\partial g}{\\partial p_i}-\\frac{\\partial f}{\\partial p_i}\\frac{\\partial g}{\\partial q_i}\\right)"]
+	},
+	{
+		"family" : "classical-mechanics",
 		"name" : "Radial Acceleration",
 		"latex" : ["a_{\\text{rad}}=\\frac{v^2}{r}=\\omega^2r"]
 	},
@@ -99,6 +149,11 @@
 	},
 	
 	
+	{
+		"family" : "constants",
+		"name" : "Boltzmann's Constant",
+		"latex" : ["1.38064852\\times 10^{-23}\\frac{\\text{J}}{\\text{K}}"]
+	},
 	{
 		"family" : "constants",
 		"name" : "Planck's Constant",
@@ -116,6 +171,19 @@
 			"\\chi_\\text{Re}(\\omega)=\\frac{1}{\\pi}\\mathcal{P}\\int_{-\\infty}^\\infty d\\omega'\\frac{\\chi_\\text{Im}(\\omega')}{\\omega'-\\omega}",
 			"\\chi_\\text{Im}(\\omega)=-\\frac{1}{\\pi}\\mathcal{P}\\int_{-\\infty}^\\infty d\\omega'\\frac{\\chi_\\text{Re}(\\omega')}{\\omega'-\\omega}"
 		]
+	},
+	{
+		"family" : "complex-analysis",
+		"name" : "Residue",
+		"latex" : [
+			"\\text{Res}(f,c)=\\frac{1}{2\\pi i}\\oint_\\gamma f(z)dz",
+			"\\text{Res}(f,c)=\\lim_{z\\to c}(z-c)f(z)\\text{ (Simple Pole)}"
+		]
+	},
+	{
+		"family" : "complex-analysis",
+		"name" : "Residue Theorem",
+		"latex" : ["\\oint_\\gamma f(z)dz=2\\pi i\\sum_kI(\\gamma,a_k)\\text{Res}(f,a_k)"]
 	},
 	
 	
@@ -353,6 +421,20 @@
 	
 	
 	{
+		"family" : "information-theory",
+		"name" : "Shannon Entropy",
+		"latex" : ["H=-\\sum_ip_i\\log p_i"]
+	},
+	
+	
+	{
+		"family" : "linear-algebra",
+		"name" : "Cauchy-Schwarz Inequality",
+		"latex" : ["|\\langle\\mathbf{u},\\mathbf{v}\\rangle|\\leq\\|\\mathbf{u}\\|\\|\\mathbf{v}\\|"]
+	},
+	
+	
+	{
 		"family" : "optics",
 		"name" : "Malus's Law",
 		"latex" : ["I=I_{\\text{max}}\\cos^2\\phi"]
@@ -371,11 +453,23 @@
 	},
 	{
 		"family" : "precalculus",
+		"name" : "Half-Life",
+		"latex" : ["t_{1/2}=\\tau\\ln 2"]
+	},
+	{
+		"family" : "precalculus",
 		"name" : "Quadratic Formula",
 		"latex" : [
 			"ax^2+bx+c=0",
 			"x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}"
 		]
+	},
+	
+	
+	{
+		"family" : "probability-theory",
+		"name" : "Variance",
+		"latex" : ["\\text{Var}(X)=\\text{E}[X^2]-\\text{E}[X]^2"]
 	},
 	
 	
@@ -484,9 +578,86 @@
 	
 	
 	{
+		"family" : "statistical-mechanics",
+		"name" : "Partition Function",
+		"latex" : ["Z=\\sum_ie^{-\\beta E_i}=\\frac{1}{h^3}\\int d^3qd^3pe^{-\\beta H(q,p)}"]
+	},
+	
+	
+	{
+		"family" : "statistics",
+		"name" : "Normal Distribution",
+		"latex" : ["f(x)=\\frac{1}{\\sigma\\sqrt{2\\pi}}e^{-\\frac{(x-\\overline{x})^2}{2\\sigma^2}}"]
+	},
+	{
 		"family" : "statistics",
 		"name" : "Standard Deviation",
 		"latex" : ["\\Delta X=\\sqrt{\\langle X^2\\rangle-\\langle X\\rangle^2}"]
+	},
+	
+	
+	{
+		"family" : "thermodynamics",
+		"name" : "Enthalpy",
+		"latex" : [
+			"H=U+PV",
+			"dH=TdS+VdP"
+		]
+	},
+	{
+		"family" : "thermodynamics",
+		"name" : "Entropy",
+		"latex" : [
+			"S=k\\ln\\Omega",
+			"dS=\\frac{\\delta q}{T}"
+		]
+	},
+	{
+		"family" : "thermodynamics",
+		"name" : "Gibbs Free Energy",
+		"latex" : [
+			"G=U-TS+PV",
+			"dG=-SdT+VdP"
+		]
+	},
+	{
+		"family" : "statistical-mechanics",
+		"name" : "Grand Potential",
+		"latex" : [
+			"\\Phi_G=U-TS-\\mu N",
+			"d\\Phi_G=-PdV-SdT-Nd\\mu"
+		]
+	},
+	{
+		"family" : "thermodynamics",
+		"name" : "Helmholtz Free Energy",
+		"latex" : [
+			"F=U-TS=-kT\\ln(Z)",
+			"dF=-SdT-PdV"
+		]
+	},
+	{
+		"family" : "thermodynamics",
+		"name" : "Ideal Gas Law",
+		"latex" : ["PV=nRT=NkT"]
+	},
+	{
+		"family" : "thermodynamics",
+		"name" : "Maxwell Relations",
+		"latex" : [
+			"\\left(\\frac{\\partial T}{\\partial V}\\right)_S=-\\left(\\frac{\\partial P}{\\partial S}\\right)_V",
+			"\\left(\\frac{\\partial T}{\\partial P}\\right)_S=\\left(\\frac{\\partial V}{\\partial S}\\right)_P",
+			"\\left(\\frac{\\partial S}{\\partial V}\\right)_T=\\left(\\frac{\\partial P}{\\partial T}\\right)_V",
+			"\\left(\\frac{\\partial S}{\\partial P}\\right)_T=-\\left(\\frac{\\partial V}{\\partial T}\\right)_P"
+		]
+	},
+	{
+		"family" : "thermodynamics",
+		"name" : "Thermodynamic Potential Energy",
+		"latex" : [
+			"U=TS-PV+\\sum_i\\mu_iN_i",
+			"dU=TdS-pdV+\\sum_i\\mu_idN_i"
+		]
 	},
 	
 	
@@ -573,6 +744,11 @@
 			"\\cos a+\\cos b=2\\cos\\left(\\frac{a+b}{2}\\right)\\cos\\left(\\frac{a-b}{2}\\right)",
 			"\\cos a-\\cos b=-2\\sin\\left(\\frac{a+b}{2}\\right)\\sin\\left(\\frac{a-b}{2}\\right)"
 		]
+	},
+	{
+		"family" : "trigonometry",
+		"name" : "Triangle Inequality",
+		"latex" : ["\\|\\mathbf{x}+\\mathbf{y}\\|\\leq\\|\\mathbf{x}\\|+\\|\\mathbf{y}\\|"]
 	},
 	
 	
