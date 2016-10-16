@@ -263,7 +263,7 @@
 	{
 		"family" : "differential-geometry",
 		"name" : "Exterior Derivative",
-		"latex" : ["(dA)_{\\mu_1\\dots\\mu_{p+1} = (p+1)\\partial_{[\\mu_1}A_{\\mu_2\\dots\\mu_{p+1}]}}"]
+		"latex" : ["(dA)_{\\mu_1\\dots\\mu_{p+1}} = (p+1)\\partial_{[\\mu_1}A_{\\mu_2\\dots\\mu_{p+1}]}"]
 	},
 	{
 		"family" : "differential-geometry",
