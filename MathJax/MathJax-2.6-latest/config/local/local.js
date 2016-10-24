@@ -30,11 +30,19 @@
 
 MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
   var TEX = MathJax.InputJax.TeX;
-
-  // place macros here.  E.g.:
-  //   TEX.Macro("R","{\\bf R}");
-  //   TEX.Macro("op","\\mathop{\\rm #1}",1); // a macro with 1 parameter
   
+  //ENCLOSURES
+  TEX.Macro("abs","\\left\\lvert #1\\right\\rvert",1);
+  TEX.Macro("ben","\\left[ #1\\right]",1);
+  TEX.Macro("cen","\\left\\{ #1\\right\\}",1);
+  TEX.Macro("pen","\\left( #1\\right)",1);
+  
+  //TRIGONOMETRY
+  TEX.Macro("sech","{\\mathop{\\rm sech}\\nolimits}");
+  TEX.Macro("csch","{\\mathop{\\rm csch}\\nolimits}");
+  
+  //VECTORS
+  TEX.Macro("bvec","\\mathbf{#1}",1);
 });
 
 MathJax.Ajax.loadComplete("[MathJax]/config/local/local.js");
