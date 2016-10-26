@@ -9,7 +9,7 @@
 	{
 		"family" : "calculus",
 		"name" : "Cyclical Rule",
-		"latex" : ["\\pen{\\frac{\\partial x}{\\partial y}\\right)_z\\pen{\\frac{\\partial y}{\\partial z}\\right)_x\\pen{\\frac{\\partial z}{\\partial x}\\right)_y=-1"]
+		"latex" : ["\\pen{\\frac{\\partial x}{\\partial y}}_z\\pen{\\frac{\\partial y}{\\partial z}}_x\\pen{\\frac{\\partial z}{\\partial x}}_y=-1"]
 	},
 	{
 		"family" : "calculus",
@@ -60,7 +60,7 @@
 	{
 		"family" : "chemistry",
 		"name" : "Henderson-Hasselbalch Equation",
-		"latex" : ["\\text{pH}=\\text{p}K_a+\\log_{10}\\pen{\\frac{[A^-]}{[HA]}\\right)"]
+		"latex" : ["\\text{pH}=\\text{p}K_a+\\log_{10}\\pen{\\frac{[A^-]}{[HA]}}"]
 	},
 	{
 		"family" : "chemistry",

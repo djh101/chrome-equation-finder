@@ -3,7 +3,7 @@
 
   "name": "Equation Finder",
   "description": "Quickly look up math and science equations.",
-  "version": "0.1.3",
+  "version": "0.1.5.1",
   "omnibox": {
   	"keyword": "eqn"
   },
