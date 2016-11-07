@@ -453,7 +453,10 @@
 	{
 		"family" : "geometry",
 		"name" : "Solid Angle",
-		"latex" : ["d\\Omega=\\sin\\theta d\\theta d\\phi"]
+		"latex" : [
+			"d\\Omega=\\sin\\theta d\\theta d\\phi",
+			"d\\Omega^2=d\\theta^2+\\sin^2\\theta d\\phi^2"
+		]
 	},
 	
 	
