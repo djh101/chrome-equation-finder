@@ -451,6 +451,13 @@
 	
 	
 	{
+		"family" : "geometry",
+		"name" : "Solid Angle",
+		"latex" : ["d\\Omega=\\sin\\theta d\\theta d\\phi"]
+	},
+	
+	
+	{
 		"family" : "information-theory",
 		"name" : "Shannon Entropy",
 		"latex" : ["H=-\\sum_ip_i\\log p_i"]
