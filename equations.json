@@ -293,12 +293,28 @@
 	{
 		"family" : "differential-geometry",
 		"name" : "Geodesic Equation",
-		"latex" : ["\\frac{d^2x^\\mu}{d\\lambda^2}+\\Gamma_{\\rho\\sigma}^\\mu\\frac{dx^\\rho}{d\\lambda}\\frac{dx^\\sigma}{d\\lambda}=0"]
+		"latex" : [
+			"\\frac{d^2x^\\mu}{d\\lambda^2}+\\Gamma_{\\rho\\sigma}^\\mu\\frac{dx^\\rho}{d\\lambda}\\frac{dx^\\sigma}{d\\lambda}=0",
+			"K_\\mu\\frac{dx^\\mu}{d\\lambda}=\\text{constant}"
+		]
+	},
+	{
+		"family" : "differential-geometry",
+		"name" : "Hodge Star Operator",
+		"latex" : ["(\\star\\omega)_{\\mu_1\\dots\\mu_{n-p}}=\\frac{1}{p!}{\\epsilon^{\\nu_1\\dots\\nu_p}}_{\\mu_1\\dots\\mu_{n-p}}\\omega_{\\nu_1\\dots\\nu_p}"]
 	},
 	{
 		"family" : "differential-geometry",
 		"name" : "Killing's Equation",
 		"latex" : ["\\nabla_{(\\mu}K_{\\nu)}=0"]
+	},
+	{
+		"family" : "differential-geometry",
+		"name" : "Parallel Transport",
+		"latex" : [
+			"\\frac{D}{d\\lambda}T=0",
+			"\\frac{d}{d\\lambda}V^\\mu+\\Gamma_{\\sigma\\rho}^\\mu\\frac{dx^\\sigma}{d\\lambda}V^\\rho=0"
+		]
 	},
 	{
 		"family" : "differential-geometry",
@@ -348,8 +364,18 @@
 	},
 	{
 		"family" : "electromagnetism",
+		"name" : "Claussius-Mossotti Formula",
+		"latex" : ["\\frac{n\\alpha}{3}=\\frac{\\epsilon_r-1}{\\epsilon_r+2}"]
+	},
+	{
+		"family" : "electromagnetism",
 		"name" : "Coulomb's Law",
 		"latex" : ["\\bvec{F}_{12}=\\frac{1}{4\\pi\\epsilon_0}\\frac{q_1q_2}{\\abs{\\bvec{r}_{12}}^2}\\hat{r}_{12}"]
+	},
+	{
+		"family" : "electromagnetism",
+		"name" : "Dielectric Constant",
+		"latex" : ["\\epsilon_r=\\frac{\\epsilon}{\\epsilon_0}"]
 	},
 	{
 		"family" : "electromagnetism",
@@ -418,7 +444,10 @@
 	{
 		"family" : "electromagnetism",
 		"name" : "Poynting Vector",
-		"latex" : ["\\bvec{S}=\\frac{1}{\\mu_0}\\bvec{E}\\times\\bvec{B}"]
+		"latex" : [
+			"\\bvec{S}=\\frac{1}{\\mu_0}\\bvec{E}\\times\\bvec{B}",
+			"\\bvec{S}=\\bvec{E}\\times\\bvec{H}^*"
+		]
 	},
 	{
 		"family" : "electromagnetism",
@@ -436,6 +465,11 @@
 			"I=\\text{constant}"
 		]
 	},
+	{
+		"family" : "electromagnetism",
+		"name" : "Skin Depth",
+		"latex" : ["\\delta(\\omega)=\\sqrt{\\frac{2}{\\mu\\sigma\\omega}}"]
+	},
 	
 	
 	{
@@ -447,6 +481,13 @@
 		"family" : "fluid-mechanics",
 		"name" : "Continuity Equation",
 		"latex" : ["\\frac{\\partial\\rho}{\\partial t}+\\nabla\\cdot\\bvec{j}=\\sigma"]
+	},
+	
+	
+	{
+		"family" : "general-relativity",
+		"name" : "Schwarzchild Metric",
+		"latex" : ["ds^2=-\\pen{1-\\frac{2GM}{r}}dt^2+\\pen{1-\\frac{2GM}{r}}^{-1}dr^2+r^2d\\Omega^2"]
 	},
 	
 	
