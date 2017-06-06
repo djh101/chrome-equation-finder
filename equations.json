@@ -14,40 +14,40 @@
 	{
 		"family" : "calculus",
 		"name" : "d'Alembertian",
-		"latex" : ["\\Box = \\partial^\\mu\\partial_\\mu = \\frac{1}{c^2}\\frac{\\partial^2}{\\partial t^2}-\\nabla^2"]
+		"latex" : ["\\Box = \\partial^\\mu\\partial_\\mu = \\frac 1{c^2}\\frac{\\partial^2}{\\partial t^2}-\\nabla^2"]
 	},
 	{
 		"family" : "calculus",
 		"name" : "Derivative",
-		"latex" : ["\\frac{df}{dx}=\\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}"]
+		"latex" : ["\\frac{df}{dx}=\\lim_{h\\to 0}\\frac{f(x+h)-f(x)} h"]
 	},
 	{
 		"family" : "calculus",
 		"name" : "Divergence Theorem",
-		"latex" : ["\\iiint_V\\nabla\\cdot\\bvec{F}d^3r=\\oint_{\\partial V}\\bvec{F}\\cdot d\\bvec{S}"]
+		"latex" : ["\\iiint_V\\nabla\\cdot\\bvec Fd^3r=\\oint_{\\partial V}\\bvec F\\cdot d\\bvec S"]
 	},
 	{
 		"family" : "calculus",
 		"name" : "Fourier Transform",
 		"latex" : [
-			"f(\\bvec{r},t)=\\int\\frac{d^3k}{(2\\pi)^3}\\int_{-\\infty}^\\infty\\frac{d\\omega}{2\\pi}\\hat{f}(\\bvec{k},\\omega)e^{i(\\bvec{k}\\cdot\\bvec{r}-\\omega t)}",
-		"\\hat{f}(\\bvec{k},\\omega)=\\int d^3r\\int_{-\\infty}^\\infty dtf(\\bvec{r},t)e^{-i(\\bvec{k}\\cdot\\bvec{r}-\\omega t)}"
+			"f(\\bvec r,t)=\\int\\frac{d^3k}{(2\\pi)^3}\\int_{-\\infty}^\\infty\\frac{d\\omega}{2\\pi}\\hat f(\\bvec k,\\omega)e^{i(\\bvec k\\cdot\\bvec r-\\omega t)}",
+		"\\hat f(\\bvec{k},\\omega)=\\int d^3r\\int_{-\\infty}^\\infty dtf(\\bvec r,t)e^{-i(\\bvec k\\cdot\\bvec r-\\omega t)}"
 		]
 	},
 	{
 		"family" : "calculus",
 		"name" : "Green's Identities",
 		"latex" : [
-			"\\int_V(\\psi\\nabla^2\\phi+\\nabla\\psi\\cdot\\nabla\\phi)d^3r=\\oint_{\\partial V}\\phi\\nabla\\psi\\cdot d\\bvec{S}",
-			"\\int_V(\\phi\\nabla^2\\psi-\\psi\\nabla^2\\phi)d^3r=\\oint_{\\partial V}(\\phi\\nabla\\psi-\\psi\\nabla\\phi)\\cdot d\\bvec{S}"
+			"\\int_V(\\psi\\nabla^2\\phi+\\nabla\\psi\\cdot\\nabla\\phi)d^3r=\\oint_{\\partial V}\\phi\\nabla\\psi\\cdot d\\bvec S",
+			"\\int_V(\\phi\\nabla^2\\psi-\\psi\\nabla^2\\phi)d^3r=\\oint_{\\partial V}(\\phi\\nabla\\psi-\\psi\\nabla\\phi)\\cdot d\\bvec S"
 		]
 	},
 	{
 		"family" : "calculus",
 		"name" : "Stokes' Theorem",
 		"latex" : [
-			"\\int_{\\partial\\Omega}\\omega=\\int_{\\Omega}d\\omega",
-			"\\iint_S\\nabla\\times\\bvec{F}\\cdot d\\bvec{S}=\\oint_{\\partial S}\\bvec{F}\\cdot d\\bvec{l}"
+			"\\int_{\\partial\\Omega}\\omega=\\int_\\Omegad\\omega",
+			"\\iint_S\\nabla\\times\\bvec{F}\\cdot d\\bvec S=\\oint_{\\partial S}\\bvec F\\cdot d\\bvec l"
 		]
 	},
 	
@@ -60,12 +60,12 @@
 	{
 		"family" : "chemistry",
 		"name" : "Henderson-Hasselbalch Equation",
-		"latex" : ["\\text{pH}=\\text{p}K_a+\\log_{10}\\pen{\\frac{[A^-]}{[HA]}}"]
+		"latex" : ["\\text{pH}=\\text pK_a+\\log_{10}\\pen{\\frac{[A^-]}{[HA]}}"]
 	},
 	{
 		"family" : "chemistry",
 		"name" : "pH",
-		"latex" : ["\\text{pH}=-\\log_{10}[\\text{H}_3\\text{O}^+]"]
+		"latex" : ["\\text{pH}=-\\log_{10}[\\text H_3\\text O^+]"]
 	},
 	
 	
@@ -77,33 +77,33 @@
 	{
 		"family" : "classical-mechanics",
 		"name" : "Center of Mass",
-		"latex" : ["\\bvec{r}_{\\text{cm}}=\\frac{\\sum m_i\\bvec{r}_i}{\\sum m_i}"]
+		"latex" : ["\\bvec r_{\\text{cm}}=\\frac{\\sum m_i\\bvec r_i}{\\sum m_i}"]
 	},
 	{
 		"family" : "classical-mechanics",
 		"name" : "Euler-Lagrange Equations",
-		"latex" : ["\\frac{\\partial L}{\\partial q_i}-\\frac{d}{dt}\\frac{\\partial L}{\\partial\\dot{q}_i}=0"]
+		"latex" : ["\\frac{\\partial L}{\\partial q_i}-\\frac d{dt}\\frac{\\partial L}{\\partial\\dot{q}_i}=0"]
 	},
 	{
 		"family" : "classical-mechanics",
 		"name" : "Gravitational Field",
-		"latex" : ["\\bvec{g}(\\bvec{r})=-G\\int\\rho(\\bvec{r}')\\frac{\\bvec{r}-\\bvec{r}'}{\\abs{\\bvec{r}-\\bvec{r}}^3}d\\bvec{r}'"]
+		"latex" : ["\\bvec g(\\bvec r)=-G\\int\\rho(\\bvec r')\\frac{\\bvec r-\\bvec r'}{\\abs{\\bvec r-\\bvec r}^3}d\\bvec r'"]
 	},
 	{
 		"family" : "classical-mechanics",
 		"name" : "Hamilton's Equations",
 		"latex" : [
-			"\\dot{p}_i=-\\frac{\\partial H}{\\partial q_i}",
-			"\\dot{q}_i=\\frac{\\partial H}{\\partial p_i}"
+			"\\dot p_i=-\\frac{\\partial H}{\\partial q_i}",
+			"\\dot q_i=\\frac{\\partial H}{\\partial p_i}"
 		]
 	},
 	{
 		"family" : "classical-mechanics",
 		"name" : "Kinematic Equations",
 		"latex" : [
-			"x=x_0+v_0t+\\frac{1}{2}at^2",
+			"x=x_0+v_0t+\\frac 1 2at^2",
 			"v^2=v_0^2+2a(x-x_0)",
-			"x-x_0=\\pen{\\frac{v_0+v}{2}}t=v_{\\text{avg}}t"
+			"x-x_0=\\pen{\\frac{v_0+v} 2}t=v_{\\text{avg}}t"
 		]
 	},
 	{
@@ -121,18 +121,18 @@
 		"name" : "Moment of Inertia",
 		"latex" : [
 			"I=\\sum m_ir_i^2=\\int r^2dm",
-			"\\text{Rod (Center): }I=\\frac{1}{12}ML^2",
-			"\\text{Rod (End): }I=\\frac{1}{3}ML^2",
+			"\\text{Rod (Center): }I=\\frac 1{12}ML^2",
+			"\\text{Rod (End): }I=\\frac 1{3}ML^2",
 			"\\text{Ring: }I=MR^2",
-			"\\text{Disk: }I=\\frac{1}{2}MR^2",
-			"\\text{Sphere: }I=\\frac{2}{3}MR^2",
-			"\\text{Ball: }I=\\frac{2}{5}MR^2"
+			"\\text{Disk: }I=\\frac 1 2MR^2",
+			"\\text{Sphere: }I=\\frac 2{3}MR^2",
+			"\\text{Ball: }I=\\frac 2{5}MR^2"
 		]
 	},
 	{
 		"family" : "classical-mechanics",
 		"name" : "Newton's Law of Gravitation",
-		"latex" : ["\\bvec{F}_{12}=-G\\frac{m_1m_2}{\\abs{\\bvec{r}_{12}}^2}\\hat{r}_{12}"]
+		"latex" : ["\\bvec{F}_{12}=-G\\frac{m_1m_2}{\\abs{\\bvec r_{12}}^2}\\hat r_{12}"]
 	},
 	{
 		"family" : "classical-mechanics",
@@ -147,7 +147,7 @@
 	{
 		"family" : "classical-mechanics",
 		"name" : "Radial Acceleration",
-		"latex" : ["a_{\\text{rad}}=\\frac{v^2}{r}=\\omega^2r"]
+		"latex" : ["a_{\\text{rad}}=\\frac{v^2} r=\\omega^2r"]
 	},
 	{
 		"family" : "classical-mechanics",
@@ -159,14 +159,14 @@
 	{
 		"family" : "constants",
 		"name" : "Boltzmann's Constant",
-		"latex" : ["1.38064852\\times 10^{-23}\\frac{\\text{J}}{\\text{K}}"]
+		"latex" : ["1.38064852\\times 10^{-23}\\frac{\\text j}{\\text{K}}"]
 	},
 	{
 		"family" : "constants",
 		"name" : "Planck's Constant",
 		"latex" : [
-			"h=6.62607004\\times 10^{-34}\\text{J}\\cdot\\text{s}",
-			"\\hbar=1.05457180\\times 10^{-34}\\text{J}\\cdot\\text{s}"
+			"h=6.62607004\\times 10^{-34}\\text j\\cdot\\text{s}",
+			"\\hbar=1.05457180\\times 10^{-34}\\text j\\cdot\\text{s}"
 		]
 	},
 	
@@ -175,15 +175,15 @@
 		"family" : "complex-analysis",
 		"name" : "Kramers-Kronig Relations",
 		"latex" : [
-			"\\chi_\\text{Re}(\\omega)=\\frac{1}{\\pi}\\mathcal{P}\\int_{-\\infty}^\\infty d\\omega'\\frac{\\chi_\\text{Im}(\\omega')}{\\omega'-\\omega}",
-			"\\chi_\\text{Im}(\\omega)=-\\frac{1}{\\pi}\\mathcal{P}\\int_{-\\infty}^\\infty d\\omega'\\frac{\\chi_\\text{Re}(\\omega')}{\\omega'-\\omega}"
+			"\\chi_\\text{Re}(\\omega)=\\frac 1{\\pi}\\mathcal P\\int_{-\\infty}^\\infty d\\omega'\\frac{\\chi_\\text{Im}(\\omega')}{\\omega'-\\omega}",
+			"\\chi_\\text{Im}(\\omega)=-\\frac 1{\\pi}\\mathcal P\\int_{-\\infty}^\\infty d\\omega'\\frac{\\chi_\\text{Re}(\\omega')}{\\omega'-\\omega}"
 		]
 	},
 	{
 		"family" : "complex-analysis",
 		"name" : "Residue",
 		"latex" : [
-			"\\text{Res}(f,c)=\\frac{1}{2\\pi i}\\oint_\\gamma f(z)dz",
+			"\\text{Res}(f,c)=\\frac 1{2\\pi i}\\oint_\\gamma f(z)dz",
 			"\\text{Res}(f,c)=\\lim_{z\\to c}(z-c)f(z)\\text{ (Simple Pole)}"
 		]
 	},
@@ -202,10 +202,10 @@
 			"y=r\\sin\\phi",
 			"z=z",
 			"dxdydz=rdrd\\phi dz",
-			"\\nabla f=\\frac{\\partial f}{\\partial r}\\hat{r}+\\frac{1}{r}\\frac{\\partial f}{\\partial\\phi}\\hat{\\phi}+\\frac{\\partial f}{\\partial z}\\hat{z}",
-			"\\nabla^2f=\\frac{1}{r}\\frac{\\partial f}{\\partial r}\\pen{r\\frac{\\partial f}{\\partial r}}+\\frac{1}{r^2}\\frac{\\partial^2f}{\\partial\\phi^2}+\\frac{\\partial^2f}{\\partial z^2}",
-			"\\nabla\\cdot\\bvec{A}=\\frac{1}{r}\\frac{\\partial}{\\partial r}\\pen{rA_r}+\\frac{1}{r}\\frac{\\partial A_\\phi}{\\partial\\phi}+\\frac{\\partial A_z}{\\partial z}",
-			"\\nabla\\times\\bvec{A}=\\pen{\\frac{1}{r}\\frac{\\partial A_z}{\\partial\\phi}-\\frac{\\partial A_\\phi}{\\partial z}}\\hat{r}+\\pen{\\frac{\\partial A_r}{\\partial z}-\\frac{\\partial A_z}{\\partial r}}\\hat{\\phi}+\\frac{1}{r}\\pen{\\frac{\\partial}{\\partial r}\\pen{rA_\\phi}-\\frac{\\partial A_r}{\\partial\\phi}}\\hat{z}"
+			"\\nabla f=\\frac{\\partial f}{\\partial r}\\hat r+\\frac 1 r\\frac{\\partial f}{\\partial\\phi}\\hat{\\phi}+\\frac{\\partial f}{\\partial z}\\hat{z}",
+			"\\nabla^2f=\\frac 1 r\\frac{\\partial f}{\\partial r}\\pen{r\\frac{\\partial f}{\\partial r}}+\\frac 1{r^2}\\frac{\\partial^2f}{\\partial\\phi^2}+\\frac{\\partial^2f}{\\partial z^2}",
+			"\\nabla\\cdot\\bvec a=\\frac 1 r\\frac{\\partial}{\\partial r}\\pen{rA_r}+\\frac 1 r\\frac{\\partial A_\\phi}{\\partial\\phi}+\\frac{\\partial A_z}{\\partial z}",
+			"\\nabla\\times\\bvec a=\\pen{\\frac 1 r\\frac{\\partial A_z}{\\partial\\phi}-\\frac{\\partial A_\\phi}{\\partial z}}\\hat r+\\pen{\\frac{\\partial A_r}{\\partial z}-\\frac{\\partial A_z}{\\partial r}}\\hat{\\phi}+\\frac 1 r\\pen{\\frac{\\partial}{\\partial r}\\pen{rA_\\phi}-\\frac{\\partial A_r}{\\partial\\phi}}\\hat{z}"
 		]
 	},
 	{
@@ -215,8 +215,8 @@
 			"x=r\\cos\\phi",
 			"y=r\\sin\\phi",
 			"dxdy=rdrd\\phi",
-			"\\nabla f=\\frac{\\partial f}{\\partial r}\\hat{r}+\\frac{1}{r}\\frac{\\partial f}{\\partial\\phi}\\hat{\\phi}",
-			"\\nabla^2f=\\frac{1}{r}\\frac{\\partial f}{\\partial r}\\pen{r\\frac{\\partial f}{\\partial r}}+\\frac{1}{r^2}\\frac{\\partial^2f}{\\partial\\phi^2}"
+			"\\nabla f=\\frac{\\partial f}{\\partial r}\\hat r+\\frac 1 r\\frac{\\partial f}{\\partial\\phi}\\hat{\\phi}",
+			"\\nabla^2f=\\frac 1 r\\frac{\\partial f}{\\partial r}\\pen{r\\frac{\\partial f}{\\partial r}}+\\frac 1{r^2}\\frac{\\partial^2f}{\\partial\\phi^2}"
 		]
 	},
 	{
@@ -227,10 +227,10 @@
 			"y=r\\sin\\theta\\sin\\phi",
 			"z=r\\cos\\theta",
 			"dxdydz=r^2\\sin\\theta drd\\theta d\\phi",
-			"\\nabla f=\\frac{\\partial f}{\\partial r}\\hat{r}+\\frac{1}{r}\\frac{\\partial f}{\\partial\\theta}\\hat{\\theta}+\\frac{1}{r\\sin\\theta}\\frac{\\partial f}{\\partial\\phi}\\hat{\\phi}",
-			"\\nabla^2f=\\frac{1}{r^2}\\frac{\\partial}{\\partial r}\\pen{r^2\\frac{\\partial f}{\\partial r}}+\\frac{1}{r^2\\sin\\theta}\\frac{\\partial}{\\partial\\theta}\\pen{\\sin\\theta\\frac{\\partial f}{\\partial\\theta}}+\\frac{1}{r^2\\sin^2\\theta}{\\frac{\\partial^2f}{\\partial\\phi^2}}",
-			"\\nabla\\cdot\\bvec{A}=\\frac{1}{r^2}\\frac{\\partial}{\\partial r}\\pen{r^2A_r}+\\frac{1}{r\\sin\\theta}\\frac{\\partial}{\\partial\\theta}\\pen{\\sin\\theta A_\\theta}+\\frac{1}{r\\sin\\theta}\\frac{\\partial A_\\phi}{\\partial\\phi}",
-			"\\nabla\\times\\bvec{A}=\\frac{1}{r\\sin\\theta}\\pen{\\frac{\\partial}{\\partial\\theta}\\pen{A_\\phi\\sin\\theta}-\\frac{\\partial A_\\theta}{\\partial\\phi}}\\hat{r}+\\frac{1}{r}\\pen{\\frac{1}{\\sin\\theta}\\frac{\\partial A_r}{\\partial\\phi}-\\frac{\\partial}{\\partial r}\\pen{rA_\\phi}}\\hat{\\theta}+\\frac{1}{r}\\pen{\\frac{\\partial}{\\partial r}\\pen{rA_\\theta}-\\frac{\\partial A_r}{\\partial\\theta}}\\hat{\\phi}"
+			"\\nabla f=\\frac{\\partial f}{\\partial r}\\hat r+\\frac 1 r\\frac{\\partial f}{\\partial\\theta}\\hat{\\theta}+\\frac 1{r\\sin\\theta}\\frac{\\partial f}{\\partial\\phi}\\hat{\\phi}",
+			"\\nabla^2f=\\frac 1{r^2}\\frac{\\partial}{\\partial r}\\pen{r^2\\frac{\\partial f}{\\partial r}}+\\frac 1{r^2\\sin\\theta}\\frac{\\partial}{\\partial\\theta}\\pen{\\sin\\theta\\frac{\\partial f}{\\partial\\theta}}+\\frac 1{r^2\\sin^2\\theta}{\\frac{\\partial^2f}{\\partial\\phi^2}}",
+			"\\nabla\\cdot\\bvec a=\\frac 1{r^2}\\frac{\\partial}{\\partial r}\\pen{r^2A_r}+\\frac 1{r\\sin\\theta}\\frac{\\partial}{\\partial\\theta}\\pen{\\sin\\theta A_\\theta}+\\frac 1{r\\sin\\theta}\\frac{\\partial A_\\phi}{\\partial\\phi}",
+			"\\nabla\\times\\bvec a=\\frac 1{r\\sin\\theta}\\pen{\\frac{\\partial}{\\partial\\theta}\\pen{A_\\phi\\sin\\theta}-\\frac{\\partial A_\\theta}{\\partial\\phi}}\\hat r+\\frac 1 r\\pen{\\frac 1{\\sin\\theta}\\frac{\\partial A_r}{\\partial\\phi}-\\frac{\\partial}{\\partial r}\\pen{rA_\\phi}}\\hat{\\theta}+\\frac 1 r\\pen{\\frac{\\partial}{\\partial r}\\pen{rA_\\theta}-\\frac{\\partial A_r}{\\partial\\theta}}\\hat{\\phi}"
 		]
 	},
 	
@@ -238,7 +238,7 @@
 	{
 		"family" : "differential-equations",
 		"name" : "Diffusion Equation",
-		"latex" : ["\\frac{\\partial u}{\\partial t}-\\nabla\\cdot\\benclose{D(u,\\bvec{r})\\nabla u(\\bvec{r},t)}=0"]
+		"latex" : ["\\frac{\\partial u}{\\partial t}-\\nabla\\cdot\\benclose{D(u,\\bvec r)\\nabla u(\\bvec r,t)}=0"]
 	},
 	{
 		"family" : "differential-equations",
@@ -248,7 +248,7 @@
 	{
 		"family" : "differential-equations",
 		"name" : "Wave Equation",
-		"latex" : ["\\nabla^2u=\\frac{1}{v^2}\\frac{\\partial^2u}{\\partial t^2}"]
+		"latex" : ["\\nabla^2u=\\frac 1{v^2}\\frac{\\partial^2u}{\\partial t^2}"]
 	},
 	
 	
@@ -260,14 +260,14 @@
 	{
 		"family" : "differential-geometry",
 		"name" : "Christoffel Symbol",
-		"latex" : ["\\Gamma_{\\mu\\nu}^\\lambda=\\frac{1}{2}g^{\\lambda\\sigma}(\\partial_\\mu g_{\\nu\\sigma}+\\partial_\\nu g_{\\sigma\\mu}-\\partial_\\sigma g_{\\mu\\nu})"]
+		"latex" : ["\\Gamma_{\\mu\\nu}^\\lambda=\\frac 1 2g^{\\lambda\\sigma}(\\partial_\\mu g_{\\nu\\sigma}+\\partial_\\nu g_{\\sigma\\mu}-\\partial_\\sigma g_{\\mu\\nu})"]
 	},
 	{
 		"family" : "differential-geometry",
 		"name" : "Covariant Derivative",
 		"latex" : [
 			"\\nabla_\\mu V^\\nu=\\partial_\\mu V^\\nu+\\Gamma_{\\mu\\lambda}^\\nu V^\\lambda",
-			"\\nabla_\\mu \\omega_\\nu=\\partial_\\mu \\omega_\\nu-\\Gamma_{\\mu\\nu}^\\lambda \\omega^\\lambda"
+			"\\nabla_\\mu \\omega_\\nu=\\partial_\\mu \\omega_\\nu-\\Gamma_{\\mu\\nu}^\\lambda \\omega_\\lambda"
 		]
 	},
 	{
@@ -278,12 +278,12 @@
 	{
 		"family" : "differential-geometry",
 		"name" : "Einstein Tensor",
-		"latex" : ["G_{\\mu\\nu}=R_{\\mu\\nu}-\\tfrac{1}{2}Rg_{\\mu\\nu}"]
+		"latex" : ["G_{\\mu\\nu}=R_{\\mu\\nu}-\\tfrac 1 2Rg_{\\mu\\nu}"]
 	},
 	{
 		"family" : "differential-geometry",
 		"name" : "Einstein's Equation",
-		"latex" : ["R_{\\mu\\nu}-\\tfrac{1}{2}Rg_{\\mu\\nu}+\\Lambda g_{\\mu\\nu}=8\\pi GT_{\\mu\\nu}"]
+		"latex" : ["R_{\\mu\\nu}-\\tfrac 1 2Rg_{\\mu\\nu}+\\Lambda g_{\\mu\\nu}=8\\pi GT_{\\mu\\nu}"]
 	},
 	{
 		"family" : "differential-geometry",
@@ -301,7 +301,7 @@
 	{
 		"family" : "differential-geometry",
 		"name" : "Hodge Star Operator",
-		"latex" : ["(\\star\\omega)_{\\mu_1\\dots\\mu_{n-p}}=\\frac{1}{p!}{\\epsilon^{\\nu_1\\dots\\nu_p}}_{\\mu_1\\dots\\mu_{n-p}}\\omega_{\\nu_1\\dots\\nu_p}"]
+		"latex" : ["(\\star\\omega)_{\\mu_1\\dots\\mu_{n-p}}=\\frac 1{p!}{\\epsilon^{\\nu_1\\dots\\nu_p}}_{\\mu_1\\dots\\mu_{n-p}}\\omega_{\\nu_1\\dots\\nu_p}"]
 	},
 	{
 		"family" : "differential-geometry",
@@ -342,7 +342,7 @@
 	{
 		"family" : "differential-geometry",
 		"name" : "Weyl Tensor",
-		"latex" : ["C_{\\rho\\sigma\\mu\\nu}=R_{\\rho\\sigma\\mu\\nu}-\\frac{2}{n-2}(g_{\\rho[\\mu}R_{\\nu]\\sigma}-g_{\\sigma[\\mu}R_{\\nu]\\rho})+\\frac{2}{(n-1)(n-2)}g_{\\rho[\\mu}g_{\\nu]\\sigma}R"]
+		"latex" : ["C_{\\rho\\sigma\\mu\\nu}=R_{\\rho\\sigma\\mu\\nu}-\\frac 2{n-2}(g_{\\rho[\\mu}R_{\\nu]\\sigma}-g_{\\sigma[\\mu}R_{\\nu]\\rho})+\\frac 2{(n-1)(n-2)}g_{\\rho[\\mu}g_{\\nu]\\sigma}R"]
 	},
 	
 	
@@ -350,37 +350,37 @@
 		"family" : "electromagnetism",
 		"name" : "Ampere's Law",
 		"latex" : [
-			"\\nabla\\times\\bvec{B}=\\mu_0\\bvec{J}",
-			"\\oint_C\\bvec{B}\\cdot d\\bvec{l}=\\mu_0I_{\\text{en}}"
+			"\\nabla\\times\\bvec b=\\mu_0\\bvec j",
+			"\\oint_C\\bvec b\\cdot d\\bvec l=\\mu_0I_{\\text{en}}"
 		]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Biot-Savart Law",
 		"latex" : [
-			"\\bvec{B}(\\bvec{r})=\\frac{\\mu_0}{4\\pi}\\int_C\\frac{Id\\bvec{l}\\times(\\bvec{r}-\\bvec{l})}{\\abs{\\bvec{r}-\\bvec{l}}^3}",
-			"\\bvec{B}(\\bvec{r})=\\frac{\\mu_0}{4\\pi}\\iiint\\frac{\\bvec{J}\\times(\\bvec{r}-\\bvec{l})}{\\abs{\\bvec{r}-\\bvec{l}}^3}dV"
+			"\\bvec b(\\bvec r)=\\frac{\\mu_0}{4\\pi}\\int_C\\frac{Id\\bvec l\\times(\\bvec r-\\bvec l)}{\\abs{\\bvec r-\\bvec l}^3}",
+			"\\bvec b(\\bvec r)=\\frac{\\mu_0}{4\\pi}\\iiint\\frac{\\bvec j\\times(\\bvec r-\\bvec l)}{\\abs{\\bvec r-\\bvec l}^3}dV"
 		]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Claussius-Mossotti Formula",
-		"latex" : ["\\frac{n\\alpha}{3}=\\frac{\\epsilon_r-1}{\\epsilon_r+2}"]
+		"latex" : ["\\frac{n\\alpha}3=\\frac{\\epsilon_r-1}{\\epsilon_r+2}"]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Coulomb's Law",
-		"latex" : ["\\bvec{F}_{12}=\\frac{1}{4\\pi\\epsilon_0}\\frac{q_1q_2}{\\abs{\\bvec{r}_{12}}^2}\\hat{r}_{12}"]
+		"latex" : ["\\bvec{F}_{12}=\\frac 1{4\\pi\\epsilon_0}\\frac{q_1q_2}{\\abs{\\bvec r_{12}}^2}\\hat r_{12}"]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Dielectric Constant",
-		"latex" : ["\\epsilon_r=\\frac{\\epsilon}{\\epsilon_0}"]
+		"latex" : ["\\epsilon_r=\\frac\\epsilon{\\epsilon_0}"]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Electric Field",
-		"latex" : ["\\bvec{E}(\\bvec{r})=\\frac{1}{4\\pi\\epsilon_0}\\int\\rho(\\bvec{r}')\\frac{\\bvec{r}-\\bvec{r}'}{\\abs{\\bvec{r}-\\bvec{r}}^3}d\\bvec{r}'"]
+		"latex" : ["\\bvec E(\\bvec r)=\\frac 1{4\\pi\\epsilon_0}\\int\\rho(\\bvec r')\\frac{\\bvec r-\\bvec r'}{\\abs{\\bvec r-\\bvec r}^3}d\\bvec r'"]
 	},
 	{
 		"family" : "electromagnetism",
@@ -390,40 +390,40 @@
 	{
 		"family" : "electromagnetism",
 		"name" : "Faraday's Law",
-		"latex" : ["\\mathcal{E}=-\\frac{d\\Phi_B}{dt}"]
+		"latex" : ["\\mathcal E=-\\frac{d\\Phi_B}{dt}"]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Gauss's Law",
 		"latex" : [
-			"\\nabla\\cdot\\bvec{E}=\\frac{\\rho}{\\epsilon_o}",
-			"\\oint_S\\bvec{E}\\cdot d\\bvec{S}=\\frac{Q_{\\text{en}}}{\\epsilon_o}"
+			"\\nabla\\cdot\\bvec E=\\frac\\rho{\\epsilon_0}",
+			"\\oint_S\\bvec E\\cdot d\\bvec S=\\frac{Q_{\\text{en}}}{\\epsilon_0}"
 		]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Lorentz Force",
-		"latex" : ["\\bvec{F}=q(\\bvec{E}+\\bvec{v}\\times\\bvec{B})"]
+		"latex" : ["\\bvec F=q(\\bvec E+\\bvec v\\times\\bvec b)"]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Magnetic Force",
-		"latex" : ["\\bvec{F}=q\\bvec{v}\\times\\bvec{B}=I\\bvec{l}\\times\\bvec{B}"]
+		"latex" : ["\\bvec F=q\\bvec v\\times\\bvec b=I\\bvec l\\times\\bvec b"]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Maxwell's Equations",
 		"latex" : [
-			"\\nabla\\cdot\\bvec{E}=\\frac{\\rho}{\\epsilon_0}\\Leftrightarrow\\oint_S\\bvec{E}\\cdot d\\bvec{S}=\\frac{Q_{\\text{en}}}{\\epsilon_o}",
-			"\\nabla\\cdot\\bvec{B}=0\\Leftrightarrow\\oint_S\\bvec{B}\\cdot d\\bvec{S}=0",
-			"\\nabla\\times\\bvec{E}=-\\frac{\\partial\\bvec{B}}{\\partial t}\\Leftrightarrow\\oint_C\\bvec{E}\\cdot d\\bvec{l}=-\\frac{d\\Phi_B}{dt}",
-			"\\nabla\\times\\bvec{B}=\\mu_0\\bvec{J}+\\frac{1}{c^2}\\frac{\\partial\\bvec{E}}{\\partial t}\\Leftrightarrow\\oint_C\\bvec{B}\\cdot d\\bvec{l}=\\mu_0\\int_S\\bvec{J}\\cdot d\\bvec{S}+\\frac{1}{c^2}\\frac{d\\Phi_E}{dt}"
+			"\\nabla\\cdot\\bvec E=\\frac{\\rho}{\\epsilon_0}\\Leftrightarrow\\oint_S\\bvec E\\cdot d\\bvec S=\\frac{Q_{\\text{en}}}{\\epsilon_o}",
+			"\\nabla\\cdot\\bvec b=0\\Leftrightarrow\\oint_S\\bvec b\\cdot d\\bvec S=0",
+			"\\nabla\\times\\bvec E=-\\frac{\\partial\\bvec b}{\\partial t}\\Leftrightarrow\\oint_C\\bvec E\\cdot d\\bvec l=-\\frac{d\\Phi_B}{dt}",
+			"\\nabla\\times\\bvec b=\\mu_0\\bvec j+\\frac 1{c^2}\\frac{\\partial\\bvec E}{\\partial t}\\Leftrightarrow\\oint_C\\bvec b\\cdot d\\bvec l=\\mu_0\\int_S\\bvec j\\cdot d\\bvec{S}+\\frac 1{c^2}\\frac{d\\Phi_E}{dt}"
 		]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Motional EMF",
-		"latex" : ["\\mathcal{E}=\\oint(\\bvec{v}\\times\\bvec{B})\\cdot d\\bvec{l}"]
+		"latex" : ["\\mathcal E=\\oint(\\bvec v\\times\\bvec b)\\cdot d\\bvec l"]
 	},
 	{
 		"family" : "electromagnetism",
@@ -437,7 +437,7 @@
 		"family" : "electromagnetism",
 		"name" : "Parallel Resistors",
 		"latex" : [
-			"R_\\text{eq}=\\pen{\\sum_i\\frac{1}{R_i}}^{-1}",
+			"R_\\text{eq}=\\pen{\\sum_i\\frac 1{R_i}}^{-1}",
 			"\\Delta V=\\text{constant}"
 		]
 	},
@@ -445,15 +445,15 @@
 		"family" : "electromagnetism",
 		"name" : "Poynting Vector",
 		"latex" : [
-			"\\bvec{S}=\\frac{1}{\\mu_0}\\bvec{E}\\times\\bvec{B}",
-			"\\bvec{S}=\\bvec{E}\\times\\bvec{H}^*"
+			"\\bvec{S}=\\frac 1{\\mu_0}\\bvec E\\times\\bvec b",
+			"\\bvec{S}=\\bvec E\\times\\bvec h^*"
 		]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Series Capacitors",
 		"latex" : [
-			"C_\\text{eq}=\\pen{\\sum_i\\frac{1}{C_i}}^{-1}",
+			"C_\\text{eq}=\\pen{\\sum_i\\frac 1{C_i}}^{-1}",
 			"Q=\\text{constant}"
 		]
 	},
@@ -468,26 +468,26 @@
 	{
 		"family" : "electromagnetism",
 		"name" : "Skin Depth",
-		"latex" : ["\\delta(\\omega)=\\sqrt{\\frac{2}{\\mu\\sigma\\omega}}"]
+		"latex" : ["\\delta(\\omega)=\\sqrt{\\frac 2{\\mu\\sigma\\omega}}"]
 	},
 	
 	
 	{
 		"family" : "fluid-mechanics",
 		"name" : "Bernoulli's Equation",
-		"latex" : ["p_1+\\rho gy_1+\\frac{1}{2}\\rho v_1^2=p_2+\\rho gy_2+\\frac{1}{2}\\rho v_2^2"]
+		"latex" : ["p_1+\\rho gy_1+\\frac 1 2\\rho v_1^2=p_2+\\rho gy_2+\\frac 1 2\\rho v_2^2"]
 	},
 	{
 		"family" : "fluid-mechanics",
 		"name" : "Continuity Equation",
-		"latex" : ["\\frac{\\partial\\rho}{\\partial t}+\\nabla\\cdot\\bvec{j}=\\sigma"]
+		"latex" : ["\\frac{\\partial\\rho}{\\partial t}+\\nabla\\cdot\\bvec j=\\sigma"]
 	},
 	
 	
 	{
 		"family" : "general-relativity",
 		"name" : "Schwarzchild Metric",
-		"latex" : ["ds^2=-\\pen{1-\\frac{2GM}{r}}dt^2+\\pen{1-\\frac{2GM}{r}}^{-1}dr^2+r^2d\\Omega^2"]
+		"latex" : ["ds^2=-\\pen{1-\\frac{2GM} r}dt^2+\\pen{1-\\frac{2GM} r}^{-1}dr^2+r^2d\\Omega^2"]
 	},
 	
 	
@@ -511,7 +511,7 @@
 	{
 		"family" : "linear-algebra",
 		"name" : "Cauchy-Schwarz Inequality",
-		"latex" : ["|\\langle\\bvec{u},\\bvec{v}\\rangle|\\leq\\|\\bvec{u}\\|\\|\\bvec{v}\\|"]
+		"latex" : ["|\\langle\\bvec u,\\bvec v\\rangle|\\leq\\|\\bvec u\\|\\|\\bvec v\\|"]
 	},
 	
 	
@@ -560,24 +560,29 @@
 	{
 		"family" : "probability-theory",
 		"name" : "Variance",
-		"latex" : ["\\text{Var}(X)=\\text{E}[X^2]-\\text{E}[X]^2"]
+		"latex" : ["\\text{Var}(X)=\\text E[X^2]-\\text E[X]^2"]
 	},
 	
 	
 	{
 		"family" : "quantum-mechanics",
+		"name" : "Baker-Campbell-Hausdorff Formula",
+		"latex" : ["e^{A+B}\\approx e^Ae^Be^{-\\frac 1 2\\ben{A,B}}"]
+	},
+	{
+		"family" : "quantum-mechanics",
 		"name" : "de Broglie Wavelength",
-		"latex" : ["\\lambda=\\frac{h}{p}"]
+		"latex" : ["\\lambda=\\frac h p"]
 	},
 	{
 		"family" : "quantum-mechanics",
 		"name" : "Dissipator",
-		"latex" : ["D(\\rho)=\\sum_{k=1}^{N^2-1}\\gamma_k\\pen{A_i\\rho A_k^\\dagger-\\frac{1}{2}A_k^\\dagger A_k\\rho-\\frac{1}{2}\\rho A_k^\\dagger A_k}"]
+		"latex" : ["D(\\rho)=\\sum_{k=1}^{N^2-1}\\gamma_k\\pen{A_i\\rho A_k^\\dagger-\\frac 1 2A_k^\\dagger A_k\\rho-\\frac 1 2\\rho A_k^\\dagger A_k}"]
 	},
 	{
 		"family" : "quantum-mechanics",
 		"name" : "Ehrenfest's Theorem",
-		"latex" : ["\\frac{d\\langle A\\rangle}{dt}=\\frac{1}{i\\hbar}\\langle [A,H]\\rangle+\\left\\langle\\frac{\\partial A}{\\partial t}\\right\\rangle"]
+		"latex" : ["\\frac{d\\langle A\\rangle}{dt}=\\frac 1{i\\hbar}\\langle [A,H]\\rangle+\\left\\langle\\frac{\\partial A}{\\partial t}\\right\\rangle"]
 	},
 	{
 		"family" : "quantum-mechanics",
@@ -588,14 +593,14 @@
 		"family" : "quantum-mechanics",
 		"name" : "Lindblad Equation",
 		"latex" : [
-			"\\frac{d\\rho}{dt}=-\\frac{i}{\\hbar}[H(t),\\rho(t)]+\\sum_{i,j=1}^{N^2-1}a_{ij}\\pen{F_i\\rho F_j^\\dagger-\\frac{1}{2}F_j^\\dagger F_i\\rho-\\frac{1}{2}\\rho F_j^\\dagger F_i}",
-			"\\frac{d\\rho}{dt}=-\\frac{i}{\\hbar}[H(t),\\rho(t)]+\\sum_{k=1}^{N^2-1}\\gamma_k\\pen{A_i\\rho A_k^\\dagger-\\frac{1}{2}A_k^\\dagger A_k\\rho-\\frac{1}{2}\\rho A_k^\\dagger A_k}"
+			"\\frac{d\\rho}{dt}=-\\frac i\\hbar[H(t),\\rho(t)]+\\sum_{i,j=1}^{N^2-1}a_{ij}\\pen{F_i\\rho F_j^\\dagger-\\frac 1 2F_j^\\dagger F_i\\rho-\\frac 1 2\\rho F_j^\\dagger F_i}",
+			"\\frac{d\\rho}{dt}=-\\frac i\\hbar[H(t),\\rho(t)]+\\sum_{k=1}^{N^2-1}\\gamma_k\\pen{A_i\\rho A_k^\\dagger-\\frac 1 2A_k^\\dagger A_k\\rho-\\frac 1 2\\rho A_k^\\dagger A_k}"
 		]
 	},
 	{
 		"family" : "quantum-mechanics",
 		"name" : "Liouville-von Neumann Equation",
-		"latex" : ["\\frac{d\\rho}{dt}=-\\frac{i}{\\hbar}[H(t),\\rho(t)]"]
+		"latex" : ["\\frac{d\\rho}{dt}=-\\frac i\\hbar[H(t),\\rho(t)]"]
 	},
 	{
 		"family" : "quantum-mechanics",
@@ -609,19 +614,19 @@
 	{
 		"family" : "quantum-mechanics",
 		"name" : "Photon Energy",
-		"latex" : ["E=h\\nu=\\frac{hc}{\\lambda}"]
+		"latex" : ["E=h\\nu=\\frac{hc}\\lambda"]
 	},
 	{
 		"family" : "quantum-mechanics",
 		"name" : "Photon Momentum",
-		"latex" : ["p=\\frac{E}{c}=\\frac{h}{\\lambda}"]
+		"latex" : ["p=\\frac E c=\\frac h\\lambda"]
 	},
 	{
 		"family" : "quantum-mechanics",
 		"name" : "Schrodinger Equation",
 		"latex" : [
-			"i\\hbar\\frac{\\partial\\Psi}{\\partial t}=H\\Psi(\\bvec{r},t)",
-			"\\pen{-\\frac{\\hbar^2}{2m}\\nabla^2+V(\\bvec{r})}\\psi(\\bvec{r})=E\\psi(\\bvec{r})"
+			"i\\hbar\\frac{\\partial\\Psi}{\\partial t}=H\\Psi(\\bvec r,t)",
+			"\\pen{-\\frac{\\hbar^2}{2m}\\nabla^2+V(\\bvec r)}\\psi(\\bvec r)=E\\psi(\\bvec r)"
 		]
 	},
 	
@@ -641,7 +646,7 @@
 		"name" : "Geometric Series",
 		"latex" : [
 			"\\sum_{k=0}^nr^k=\\frac{1-r^{n+1}}{1-r}",
-			"\\sum_{k=0}^\\infty r^k=\\frac{1}{1-r}"
+			"\\sum_{k=0}^\\infty r^k=\\frac 1{1-r}"
 		]
 	},
 	{
@@ -649,7 +654,7 @@
 		"name" : "Laurent Series",
 		"latex" : [
 			"f(z)=\\sum_{k=-\\infty}^\\infty a_k(z-z_0)^k",
-			"a_k=\\frac{1}{2\\pi i}\\oint_\\gamma\\frac{f(z)}{(z-z_0)^{k+1}}dz"
+			"a_k=\\frac 1{2\\pi i}\\oint_\\gamma\\frac{f(z)}{(z-z_0)^{k+1}}dz"
 		]
 	},
 	{
@@ -672,12 +677,12 @@
 	{
 		"family" : "special-relativity",
 		"name" : "Length Contraction",
-		"latex" : ["l=\\frac{1}{\\gamma}l_0=\\sqrt{1-\\frac{v^2}{c^2}}l_0"]
+		"latex" : ["l=\\frac 1\\gamma l_0=\\sqrt{1-\\frac{v^2}{c^2}}l_0"]
 	},
 	{
 		"family" : "special-relativity",
 		"name" : "Lorentz Factor",
-		"latex" : ["\\gamma = \\frac{1}{\\sqrt{1-v^2/c^2}}"]
+		"latex" : ["\\gamma = \\frac 1{\\sqrt{1-v^2/c^2}}"]
 	},
 	{
 		"family" : "special-relativity",
@@ -687,21 +692,21 @@
 	{
 		"family" : "special-relativity",
 		"name" : "Time Dilation",
-		"latex" : ["\\Delta t=\\gamma \\Delta t_0=\\frac{1}{\\sqrt{1-\\frac{v^2}{c^2}}}\\Delta t_0"]
+		"latex" : ["\\Delta t=\\gamma \\Delta t_0=\\frac 1{\\sqrt{1-\\frac{v^2}{c^2}}}\\Delta t_0"]
 	},
 	
 	
 	{
 		"family" : "statistical-mechanics",
 		"name" : "Partition Function",
-		"latex" : ["Z=\\sum_ie^{-\\beta E_i}=\\frac{1}{h^3}\\int d^3qd^3pe^{-\\beta H(q,p)}"]
+		"latex" : ["Z=\\sum_ie^{-\\beta E_i}=\\frac 1{h^3}\\int d^3qd^3pe^{-\\beta H(q,p)}"]
 	},
 	
 	
 	{
 		"family" : "statistics",
 		"name" : "Normal Distribution",
-		"latex" : ["f(x)=\\frac{1}{\\sigma\\sqrt{2\\pi}}e^{-\\frac{(x-\\overline{x})^2}{2\\sigma^2}}"]
+		"latex" : ["f(x)=\\frac 1{\\sigma\\sqrt{2\\pi}}e^{-\\frac{(x-\\overline x)^2}{2\\sigma^2}}"]
 	},
 	{
 		"family" : "statistics",
@@ -723,7 +728,7 @@
 		"name" : "Entropy",
 		"latex" : [
 			"S=k\\ln\\Omega",
-			"dS=\\frac{\\delta q}{T}"
+			"dS=\\frac{\\delta q}T"
 		]
 	},
 	{
@@ -798,8 +803,8 @@
 		"family" : "trigonometry",
 		"name" : "Half Angle",
 		"latex" : [
-			"\\sin^2\\theta=\\frac{1-\\cos(2\\theta)}{2}",
-			"\\cos^2\\theta=\\frac{1+\\cos(2\\theta)}{2}",
+			"\\sin^2\\theta=\\frac{1-\\cos(2\\theta)} 2",
+			"\\cos^2\\theta=\\frac{1+\\cos(2\\theta)} 2",
 			"\\tan^2\\theta=\\frac{1-\\cos(2\\theta)}{1+\\cos(2\\theta)}"
 		]
 	},
@@ -807,8 +812,8 @@
 		"family" : "trigonometry",
 		"name" : "Hyperbolic Functions",
 		"latex" : [
-			"\\sinh(x)=\\frac{e^x-e^{-x}}{2}",
-			"\\cosh(x)=\\frac{e^x+e^{-x}}{2}",
+			"\\sinh(x)=\\frac{e^x-e^{-x}} 2",
+			"\\cosh(x)=\\frac{e^x+e^{-x}} 2",
 			"\\sinh(x)=\\frac{e^x-e^{-x}}{e^x+e^{-x}}"
 		]
 	},
@@ -837,14 +842,14 @@
 	{
 		"family" : "trigonometry",
 		"name" : "Law of Sines",
-		"latex" : ["\\frac{\\sin A}{a}=\\frac{\\sin B}{b}=\\frac{\\sin C}{c}"]
+		"latex" : ["\\frac{\\sin A} a=\\frac{\\sin B} b=\\frac{\\sin C}c"]
 	},
 	{
 		"family" : "trigonometry",
 		"name" : "Power Reduction",
 		"latex" : [
-			"\\sin^2\\theta=\\frac{1-\\cos(2\\theta)}{2}",
-			"\\cos^2\\theta=\\frac{1+\\cos(2\\theta)}{2}",
+			"\\sin^2\\theta=\\frac{1-\\cos(2\\theta)} 2",
+			"\\cos^2\\theta=\\frac{1+\\cos(2\\theta)} 2",
 			"\\tan^2\\theta=\\frac{1-\\cos(2\\theta)}{1+\\cos(2\\theta)}"
 		]
 	},
@@ -879,16 +884,16 @@
 		"family" : "trigonometry",
 		"name" : "Sum-to-Product",
 		"latex" : [
-			"\\sin a+\\sin b=2\\sin\\pen{\\frac{a+b}{2}}\\cos\\pen{\\frac{a-b}{2}}",
-			"\\sin a-\\sin b=2\\cos\\pen{\\frac{a+b}{2}}\\sin\\pen{\\frac{a-b}{2}}",
-			"\\cos a+\\cos b=2\\cos\\pen{\\frac{a+b}{2}}\\cos\\pen{\\frac{a-b}{2}}",
-			"\\cos a-\\cos b=-2\\sin\\pen{\\frac{a+b}{2}}\\sin\\pen{\\frac{a-b}{2}}"
+			"\\sin a+\\sin b=2\\sin\\pen{\\frac{a+b} 2}\\cos\\pen{\\frac{a-b} 2}",
+			"\\sin a-\\sin b=2\\cos\\pen{\\frac{a+b} 2}\\sin\\pen{\\frac{a-b} 2}",
+			"\\cos a+\\cos b=2\\cos\\pen{\\frac{a+b} 2}\\cos\\pen{\\frac{a-b} 2}",
+			"\\cos a-\\cos b=-2\\sin\\pen{\\frac{a+b} 2}\\sin\\pen{\\frac{a-b} 2}"
 		]
 	},
 	{
 		"family" : "trigonometry",
 		"name" : "Triangle Inequality",
-		"latex" : ["\\|\\bvec{x}+\\bvec{y}\\|\\leq\\|\\bvec{x}\\|+\\|\\bvec{y}\\|"]
+		"latex" : ["\\|\\bvec x+\\bvec y\\|\\leq\\|\\bvec x\\|+\\|\\bvec y\\|"]
 	},
 	
 	
