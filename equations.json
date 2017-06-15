@@ -402,6 +402,11 @@
 	},
 	{
 		"family" : "electromagnetism",
+		"name" : "Laplace's Equation",
+		"latex" : ["\\nabla^2\\phi=0"]
+	},
+	{
+		"family" : "electromagnetism",
 		"name" : "Lorentz Force",
 		"latex" : ["\\bvec F=q(\\bvec E+\\bvec v\\times\\bvec b)"]
 	},
@@ -440,6 +445,11 @@
 			"R_\\text{eq}=\\pen{\\sum_i\\frac 1{R_i}}^{-1}",
 			"\\Delta V=\\text{constant}"
 		]
+	},
+	{
+		"family" : "electromagnetism",
+		"name" : "Poisson's Equation",
+		"latex" : ["\\nabla^2\\phi=-\\frac\\rho{\\epsilon_0}"]
 	},
 	{
 		"family" : "electromagnetism",
@@ -586,6 +596,14 @@
 	},
 	{
 		"family" : "quantum-mechanics",
+		"name" : "Klein-Gordon Equation",
+		"latex" : [
+			"\\frac 1{c^2}\\ddot\\psi-\\nabla^2\\psi+\\frac{m^2c^2}{\\hbar^2}\\psi=0",
+			"\\partial_\\mu\\partial^\\mu\\psi-m^2\\psi=0\\text{ (Natural Units)}"
+		]
+	},
+	{
+		"family" : "quantum-mechanics",
 		"name" : "Kraus Operators",
 		"latex" : ["K_{\\mu\\nu}(t)=\\sqrt{\\lambda_\\nu}\\langle\\mu|U(t)|\\nu\\rangle"]
 	},
@@ -594,7 +612,7 @@
 		"name" : "Lindblad Equation",
 		"latex" : [
 			"\\frac{d\\rho}{dt}=-\\frac i\\hbar[H(t),\\rho(t)]+\\sum_{i,j=1}^{N^2-1}a_{ij}\\pen{F_i\\rho F_j^\\dagger-\\frac 1 2F_j^\\dagger F_i\\rho-\\frac 1 2\\rho F_j^\\dagger F_i}",
-			"\\frac{d\\rho}{dt}=-\\frac i\\hbar[H(t),\\rho(t)]+\\sum_{k=1}^{N^2-1}\\gamma_k\\pen{A_i\\rho A_k^\\dagger-\\frac 1 2A_k^\\dagger A_k\\rho-\\frac 1 2\\rho A_k^\\dagger A_k}"
+			"\\frac{d\\rho}{dt}=-\\frac i\\hbar[H(t),\\rho(t)]+\\sum_{k=1}^{N^2-1}\\gamma_k\\pen{A_k\\rho A_k^\\dagger-\\frac 1 2A_k^\\dagger A_k\\rho-\\frac 1 2\\rho A_k^\\dagger A_k}"
 		]
 	},
 	{
