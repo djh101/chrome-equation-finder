@@ -25,10 +25,10 @@ MathJax.Ajax.Preloading(
   "[MathJax]/extensions/TeX/noErrors.js",
   "[MathJax]/extensions/TeX/noUndefined.js",
   "[MathJax]/extensions/TeX/AMSmath.js",
-  "[MathJax]/extensions/TeX/AMSsymbols.js",
+  "[MathJax]/extensions/TeX/AMSsymbols.js"
 );
 
-MathJax.Hub.Config({"v1.0-compatible":false,"showProcessingMessages":false,"messageStyle":"none","showMathMenu":false,"jax":["input/TeX","output/CommonHTML"]});
+MathJax.Hub.Config({"v1.0-compatible":false,"showProcessingMessages":false,"messageStyle":"none","showMathMenu":false,"jax":["input/TeX","output/CommonHTML"],"extensions":["[MathJax]/extensions/third-party/siunitx.js"]});
 
 MathJax.InputJax.TeX=MathJax.InputJax({id:"TeX",version:"2.7.1",directory:MathJax.InputJax.directory+"/TeX",extensionDir:MathJax.InputJax.extensionDir+"/TeX",config:{TagSide:"right",TagIndent:"0.8em",MultLineWidth:"85%",equationNumbers:{autoNumber:"none",formatNumber:function(a){return a},formatTag:function(a){return"("+a+")"},formatID:function(a){return"mjx-eqn-"+String(a).replace(/[:"'<>&]/g,"")},formatURL:function(b,a){return a+"#"+escape(b)},useLabelIds:true}},resetEquationNumbers:function(){}});MathJax.InputJax.TeX.Register("math/tex");MathJax.InputJax.TeX.loadComplete("config.js");
 MathJax.OutputJax.CommonHTML=MathJax.OutputJax({id:"CommonHTML",version:"2.7.1",directory:MathJax.OutputJax.directory+"/CommonHTML",extensionDir:MathJax.OutputJax.extensionDir+"/CommonHTML",autoloadDir:MathJax.OutputJax.directory+"/CommonHTML/autoload",fontDir:MathJax.OutputJax.directory+"/CommonHTML/fonts",webfontDir:MathJax.OutputJax.fontDir+"/HTML-CSS",config:{matchFontHeight:true,scale:100,minScaleAdjust:50,mtextFontInherit:false,undefinedFamily:"STIXGeneral,'Cambria Math','Arial Unicode MS',serif",EqnChunk:(MathJax.Hub.Browser.isMobile?20:100),EqnChunkFactor:1.5,EqnChunkDelay:100,linebreaks:{automatic:false,width:"container"}}});if(!MathJax.Hub.config.delayJaxRegistration){MathJax.OutputJax.CommonHTML.Register("jax/mml")}MathJax.OutputJax.CommonHTML.loadComplete("config.js");
