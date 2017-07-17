@@ -24,7 +24,7 @@
 	{
 		"family" : "calculus",
 		"name" : "Divergence Theorem",
-		"latex" : ["\\iiint_V\\nabla\\cdot\\bvec Fd^3r=\\oint_{\\partial V}\\bvec F\\cdot d\\bvec S"]
+		"latex" : ["\\int_V\\nabla\\cdot\\bvec Fd^3r=\\oint_{\\partial V}\\bvec F\\cdot d\\bvec S"]
 	},
 	{
 		"family" : "calculus",
@@ -46,8 +46,8 @@
 		"family" : "calculus",
 		"name" : "Stokes' Theorem",
 		"latex" : [
-			"\\int_{\\partial\\Omega}\\omega=\\int_\\Omegad\\omega",
-			"\\iint_S\\nabla\\times\\bvec{F}\\cdot d\\bvec S=\\oint_{\\partial S}\\bvec F\\cdot d\\bvec l"
+			"\\int_{\\partial\\Omega}\\omega=\\int_\\Omega\\omega",
+			"\\int_S\\nabla\\times\\bvec{F}\\cdot d\\bvec S=\\oint_{\\partial S}\\bvec F\\cdot d\\bvec l"
 		]
 	},
 	
@@ -420,16 +420,16 @@
 		"family" : "electromagnetism",
 		"name" : "Ampere's Law",
 		"latex" : [
-			"\\nabla\\times\\bvec b=\\mu_0\\bvec j",
-			"\\oint_C\\bvec b\\cdot d\\bvec l=\\mu_0I_{\\text{en}}"
+			"\\nabla\\times\\bvec B=\\mu_0\\bvec j",
+			"\\oint_C\\bvec B\\cdot d\\bvec l=\\mu_0I_{\\text{en}}"
 		]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Biot-Savart Law",
 		"latex" : [
-			"\\bvec b(\\bvec r)=\\frac{\\mu_0}{4\\pi}\\int_C\\frac{Id\\bvec l\\times(\\bvec r-\\bvec l)}{\\abs{\\bvec r-\\bvec l}^3}",
-			"\\bvec b(\\bvec r)=\\frac{\\mu_0}{4\\pi}\\iiint\\frac{\\bvec j\\times(\\bvec r-\\bvec l)}{\\abs{\\bvec r-\\bvec l}^3}dV"
+			"\\bvec B(\\bvec r)=\\frac{\\mu_0}{4\\pi}\\int_C\\frac{Id\\bvec l\\times(\\bvec r-\\bvec l)}{\\abs{\\bvec r-\\bvec l}^3}",
+			"\\bvec B(\\bvec r)=\\frac{\\mu_0}{4\\pi}\\int\\frac{\\bvec j\\times(\\bvec r-\\bvec l)}{\\abs{\\bvec r-\\bvec l}^3}dV"
 		]
 	},
 	{
@@ -478,27 +478,27 @@
 	{
 		"family" : "electromagnetism",
 		"name" : "Lorentz Force",
-		"latex" : ["\\bvec F=q(\\bvec E+\\bvec v\\times\\bvec b)"]
+		"latex" : ["\\bvec F=q(\\bvec E+\\bvec v\\times\\bvec B)"]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Magnetic Force",
-		"latex" : ["\\bvec F=q\\bvec v\\times\\bvec b=I\\bvec l\\times\\bvec b"]
+		"latex" : ["\\bvec F=q\\bvec v\\times\\bvec B=I\\bvec l\\times\\bvec B"]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Maxwell's Equations",
 		"latex" : [
 			"\\nabla\\cdot\\bvec E=\\frac{\\rho}{\\epsilon_0}\\Leftrightarrow\\oint_S\\bvec E\\cdot d\\bvec S=\\frac{Q_{\\text{en}}}{\\epsilon_o}",
-			"\\nabla\\cdot\\bvec b=0\\Leftrightarrow\\oint_S\\bvec b\\cdot d\\bvec S=0",
-			"\\nabla\\times\\bvec E=-\\frac{\\partial\\bvec b}{\\partial t}\\Leftrightarrow\\oint_C\\bvec E\\cdot d\\bvec l=-\\frac{d\\Phi_B}{dt}",
-			"\\nabla\\times\\bvec b=\\mu_0\\bvec j+\\frac 1{c^2}\\frac{\\partial\\bvec E}{\\partial t}\\Leftrightarrow\\oint_C\\bvec b\\cdot d\\bvec l=\\mu_0\\int_S\\bvec j\\cdot d\\bvec{S}+\\frac 1{c^2}\\frac{d\\Phi_E}{dt}"
+			"\\nabla\\cdot\\bvec B=0\\Leftrightarrow\\oint_S\\bvec B\\cdot d\\bvec S=0",
+			"\\nabla\\times\\bvec E=-\\frac{\\partial\\bvec B}{\\partial t}\\Leftrightarrow\\oint_C\\bvec E\\cdot d\\bvec l=-\\frac{d\\Phi_B}{dt}",
+			"\\nabla\\times\\bvec B=\\mu_0\\bvec j+\\frac 1{c^2}\\frac{\\partial\\bvec E}{\\partial t}\\Leftrightarrow\\oint_C\\bvec B\\cdot d\\bvec l=\\mu_0\\int_S\\bvec j\\cdot d\\bvec{S}+\\frac 1{c^2}\\frac{d\\Phi_E}{dt}"
 		]
 	},
 	{
 		"family" : "electromagnetism",
 		"name" : "Motional EMF",
-		"latex" : ["\\mathcal E=\\oint(\\bvec v\\times\\bvec b)\\cdot d\\bvec l"]
+		"latex" : ["\\mathcal E=\\oint(\\bvec v\\times\\bvec B)\\cdot d\\bvec l"]
 	},
 	{
 		"family" : "electromagnetism",
@@ -525,7 +525,7 @@
 		"family" : "electromagnetism",
 		"name" : "Poynting Vector",
 		"latex" : [
-			"\\bvec{S}=\\frac 1{\\mu_0}\\bvec E\\times\\bvec b",
+			"\\bvec{S}=\\frac 1{\\mu_0}\\bvec E\\times\\bvec B",
 			"\\bvec{S}=\\bvec E\\times\\bvec h^*"
 		]
 	},
